@@ -24,3 +24,11 @@ python scraper.py --url "https://example.com/public-cars" --output outputs
 原始HTML → CSS选择器解析 → 字段标准化 → 重复/缺失/异常检查 → SQLite/CSV/Excel。
 
 项目重点包括 Requests/BeautifulSoup/Pandas 采集与处理、字段字典、数据质量规则、失败重试、日志记录和结果导出。
+
+## 公开API采集
+
+`nhtsa_crawl.py` 使用 NHTSA vPIC 公开接口采集真实的乘用车品牌数据，记录原始JSON、清洗结果、抓取时间和来源URL；运行方式：
+
+```bash
+python nhtsa_crawl.py
+```
