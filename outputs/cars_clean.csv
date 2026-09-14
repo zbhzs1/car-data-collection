@@ -1,0 +1,5 @@
+﻿model,brand,price_wan,energy,listed_month,dealer_city,source
+,吉利,13.72,燃油,2025-06,广州,fixtures\cars.html
+,比亚迪,9.98,插混,2025-03,深圳,fixtures\cars.html
+,特斯拉,23.19,纯电,2025-01,广州,fixtures\cars.html
+,比亚迪,11.98,插混,2025-05,佛山,fixtures\cars.html
